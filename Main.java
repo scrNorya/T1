@@ -118,16 +118,21 @@ class Lexer {
     
     //identificação de token tipo identificador/palavra-chave
     public Token simula_AFD_IDS() {
+        //reconhecer letras seguindas de letras ou digitos
+        //verificar se palavra já existe como palavra chave
+        //identificar tipo e valor de acordo
         return null;
     }
 
     //identificação de token tipo numeral
     public Token simula_AFD_NUMS() {
+        //reconhecer numeros seguidos de numeros
+        //identificar tipo e valor de acordo
         return null;
     }
 
     public void throwErro() {
-
+        
     }
 }
 
